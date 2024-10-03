@@ -1,5 +1,6 @@
 return {
   "williamboman/mason.nvim",
+  enabled = true,
   dependencies = {
     "williamboman/mason-lspconfig.nvim",
     "WhoIsSethDaniel/mason-tool-installer.nvim",
@@ -32,7 +33,6 @@ return {
     mason_tool_installer.setup({
       ensure_installed = {
         "prettier",
-        "isort",
         "black",
         "eslint_d",
         "pylint",
