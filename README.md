@@ -6,6 +6,7 @@ PS: sorry but using an nvim distribution is more convenient especially in mainta
 
 ## Files
 
+```
 .
 ├── LICENSE
 ├── README.md
@@ -35,3 +36,4 @@ PS: sorry but using an nvim distribution is more convenient especially in mainta
 └── stylua.toml
 
 4 directories, 23 files
+```
