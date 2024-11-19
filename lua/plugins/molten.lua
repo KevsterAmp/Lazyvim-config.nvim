@@ -5,6 +5,8 @@ return {
   init = function()
     -- this is an example, not a default. Please see the readme for more configuration options
     vim.g.molten_output_win_max_height = 12
+    vim.g.molten_virt_text_output = true
+    vim.g.molten_auto_open_output	 = false
 
     vim.keymap.set("n", "<leader>mi", ":MoltenInit<CR>", { silent = true, desc = "Initialize the plugin" })
     vim.keymap.set("n", "<leader>e", ":MoltenEvaluateOperator<CR>", { silent = true, desc = "run operator selection" })
