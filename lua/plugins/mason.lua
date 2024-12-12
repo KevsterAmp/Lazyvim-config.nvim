@@ -35,7 +35,7 @@ return {
         "prettier",
         "black",
         "eslint_d",
-        "pylint",
+        "ruff",
       },
     })
   end,
