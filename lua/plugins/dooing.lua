@@ -1,7 +1,8 @@
 return {
   "atiladefreitas/dooing",
   config = function()
-    -- require("dooing").setup({
-    -- })
+    require("dooing").setup({
+      quick_keys = false,
+    })
   end,
 }
